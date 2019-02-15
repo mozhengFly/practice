@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  application:
+    name: web-demo
+  cloud:
+    config:
+      profile: dev
+server:
+  port: 4848
